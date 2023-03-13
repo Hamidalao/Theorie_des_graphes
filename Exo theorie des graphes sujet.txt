@@ -1,0 +1,23 @@
+Ecriver un algorithme permettant de detecter si un graphe contien ou non un circuit 
+
+Pour ce fait vous pouver partie des constat suivant:
+
+Dans un circuit, tout sommet a au moin un predecesseur et un successeur 
+-Un point d'entrer na pas de predecesseur 
+Un point de sortie na pas de successeur
+
+
+//-------------------------------------------
+
+Soit x et y deux sommet d'un graphe.
+X et y ont une relation de connexiter si et seulement si il exite une chaine entre x et y
+ou bien x=y
+
+x et y ont une relation de forte connexiter si et seulelment si il existe un chemin de x a y et de y a x ou bien x =y
+
+UN graphe est dit fortement connexe si tout ces noeud on deux a deux la relation de forte connexiter
+
+Ecriver un algorithme qui permet de determiner la composante forte connexe contenant un sommet donner
+Ecriver un algorithme qui permet de determiner tout les composantes fortement connexe d'un graphe
+
+
